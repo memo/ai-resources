@@ -1,5 +1,5 @@
 # Introduction
-This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). Mainly MOOCs & video lectures for now, books / tutorials / articles etc might come later. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algabra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
+This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). Mainly MOOCs & video lectures for now, books / tutorials / articles etc might come later. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
 
 A lot of the resources below are actually not for DL but more comprehensive ML/SI. DL is mostly just tweaks on top of older techniques, so once you have a solid foundation in ML/SI it makes a lot more sense. If you go through the video lectures below (including advanced ones), you'll be able to pick up current DL developments directly from the published papers.
 
@@ -8,7 +8,7 @@ If you really want to understand AI/ML/SI/DL/RL indepth with all the maths, you 
 If you just want to *use* the algorithms without necessarily understanding or delving into the maths, or just want to understand the algorithms at a high conceptual level, that's perfectly fine too. Hopefully my comments below will make it clear what's what. 
   
 
-# Tip
+# Tips
 There's a lot of overlap in the lectures below. That's a **good** thing. Don't skip things because you've already read or seen them elsewhere. If you're trying to learn and *understand* something which is potentially quite complicated, having different people explain the same thing to you in different ways is very useful and often gives insight or intuition you might not otherwise find.
 
 If there are sections which you are 100% comfortable with, then you could watch those sections at 1.25x, 1.5x, or even 2.0x speed just to see what's going on, and then switch back to 1.0x speed once you encounter new material or interesting new angles on the same material.
@@ -146,7 +146,7 @@ https://www.coursera.org/course/neuralnets
 Goes deep into some areas of DL and rather advanced. Hinton is one of the titans of DL and there is a lot of insight in here, but I found it a bit all over the place and I wasn't a huge fan of it. I.e. I don't think it's very useful as a *linear educational* resource and requies prior knowledge of ML, SI and DL. If you first learn these topics elsewhere (e.g. videos above) and then come back to this course then you can find great insight. Otherwise if you dive straight into this you will get lost.  
 
 
-**Computational Neuroscience by Rajesh Rao & Adrienne Fairhall @ Coursera**
+**Computational Neuroscience by Rajesh Rao & Adrienne Fairhall @ Coursera**  
 https://www.coursera.org/course/compneuro  
 Not directly related to DL but fascinating nevertheless. Starts quite fun but gets rather heavy, especially Adrienne's sections. Rajesh takes things quite slow and re-iterates everything, but I think Adrienne is used to dealing with comp-neuroscience postgrad students and flies through the slides. Expect to pause the video on every slide while you try to digest what's on the screen. Requires decent understanding of the usual suspects, linear algebra, differential calculus, probability and statistical analysis, including things like PCA etc.
 
