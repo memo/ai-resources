@@ -183,7 +183,8 @@ Coming soon.
 # Notes
 Since this is a list of resources that I have personally watched or read, accompanied by my brief thoughts on them, it doesn't make sense for me to accept pull requests (unless there are typos). But *please* do send me suggestions (probably via issues) for others. 
 
-This list can be found on github and medium.
-https://github.com/memo/ai-resources
-https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelligence-machine-learning-statistical-inference-23bc56ba655#.msof51zfl
+This list can be found on github and medium:  
+https://github.com/memo/ai-resources  
+https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelligence-machine-learning-statistical-inference-23bc56ba655#.msof51zfl  
+
 
