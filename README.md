@@ -227,7 +227,8 @@ Free online book. Relatively old (1st 1997, current 2005) but classic textbook. 
 http://research.microsoft.com/en-us/um/people/cmbishop/prml  
 Similar to above (not online or free though). Classic text book. Very theoretical. 
 
-**Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto**
+**Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto**  
+https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html  
 Online book on RL.
 
 
