@@ -1,5 +1,5 @@
 # Introduction
-This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL) - starting for beginners. Mainly MOOCs & video lectures for now, books / tutorials / articles etc might come later. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
+This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL) - for beginners. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
 
 A lot of the resources below are actually not for DL but more comprehensive ML/SI. DL is mostly just tweaks on top of older techniques, so once you have a solid foundation in ML/SI it makes a lot more sense. If you go through the video lectures below (including advanced ones), you'll be able to pick up current DL developments directly from the published papers.
 
@@ -32,13 +32,13 @@ https://www.youtube.com/watch?v=6bOMf9zr7N8
 An alternate history of DL from Jurgen Scmidhuber, another grandmaster of DL. He goes into more detailed history of the algorithms and where they come from, and then focuses on Recurrent Neural Networks (RNN), which his lab made many innovations on (including LSTM). Bit of an ad for his own research lab(s). This video is a bit more advanced than the above ones. Arguably more interesting too. 
 
 **Basics of Computational Reinforcement Learning by Michael Littman @ RLDM 2015**  
-http://videolectures.net/rldm2015_littman_computational_reinforcement/  
+http://videolectures.net/rldm2015_littman_computational_reinforcement  
 Kind of an overview intro to RL. Some experience with MDPs etc would be useful but not essential. Michael Littman is one of the old school stars of RL and a lot of fun.
 
 ### Advanced Crash Courses
 
-**Deep Learning by Ruslan Salakhutdinov @ KDD 2014**
-http://videolectures.net/kdd2014_salakhutdinov_deep_learning/
+**Deep Learning by Ruslan Salakhutdinov @ KDD 2014**  
+http://videolectures.net/kdd2014_salakhutdinov_deep_learning  
 Overview of DL including DBN, RBM, PGM etc which are not as popular these days. Very theoretical, dense and mathematical. Maybe not that useful for beginners. Salakhutdinov is another major player in DL.
 
 **Introduction to Reinforcement Learning with Function Approximation by Rich Sutton @ NIPS 2015**  
@@ -49,7 +49,7 @@ Another intro to RL but more technical and theoretical. Rich Sutton is old schoo
 http://videolectures.net/rldm2015_silver_reinforcement_learning  
 Advanced intro to Deep RL as used by Deepmind on the Atari games and AlphaGo. Quite technical and requires decent understanding of RL, TD learning and Q-Learning etc. (see RL courses below). David Silver is the new school king of RL and superstar of Deepmind's AlphaGo (which uses Deep RL).
 
-**Monte Carlo Inference Methods by Ian Murray @ NIPS 2015**
+**Monte Carlo Inference Methods by Ian Murray @ NIPS 2015**  
 http://research.microsoft.com/apps/video/?id=259575  
 Good introduction and overview of sampling / monte carlo based methods. Not essential for a lot of DL, but good side knowledge to have. 
 
@@ -68,6 +68,7 @@ Quite unrelated to DL, looks at human learning - combined with research from pys
 
 **Lots more one-off video lectures at:**  
 http://videolectures.net/Top/Computer_Science/Artificial_Intelligence  
+http://videolectures.net/Top/Computer_Science/Machine_Learning/  
 
 ---
 
@@ -76,9 +77,9 @@ These are concentrated long term courses consisting of many video lectures. Orde
 
 
 ## Foundation / Maths
-If you want to *understand the maths* of ML/SI/DL then these are crucial. If you don't want to understand the maths, but only want to understand the *concepts* then you could probably skip these and go straight to the ML courses. However, this is also where some of the fundamental terminology is defined (prior, conditional, expected value, derivative, vector, matrix etc). So it helps to at least know what these things mean.
+If you want to *understand the maths* of ML/SI/DL then these are crucial. If you don't want to understand the maths, but only want to understand the *concepts* then you could probably skip these and go straight to the *introductory* ML courses. However, this is also where some of the fundamental terminology is defined (prior, conditional, expected value, derivative, vector, matrix etc). So it helps to at least know what these things mean.
 
-Instead of going through all of these now, you could just watch some of the basic lessons first to help you understand the fundamentals. And then come back to some of the more advanced lessons if and when you encounter them during your ML courses. E.g. it's quite probable that you'll never encounter a Hessian matrix, or require eigenvectors or calculate the determinant of a matrix by hand. And only if and when you do, then you could come back and watch the relevant lessons. You can also skip proofs if you're short on time, but they do help you understand better. Try not to be impatient. 
+Instead of going through all of these now, you could just watch some of the basic lessons first to help you understand the fundamentals. And then come back to some of the more advanced lessons if and when you encounter them. E.g. it's quite probable that you'll never encounter a Hessian matrix, or require eigenvectors or calculate the determinant of a matrix by hand. And only if and when you do, then you could come back and watch the relevant lessons. You can also skip proofs if you're short on time, but they do help you understand better. Try not to be impatient. 
 
 Khan is a superhero and will make you understand things you never knew you could. 
 
@@ -126,11 +127,11 @@ https://www.youtube.com/channel/UCDZUttQj8ytfASQIcvsLYgg (Spring 2015)
 https://www.youtube.com/channel/UCB4_W1V-KfwpTLxH9jG1_iA (Spring 2014)  
 https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q (Fall 2013)  
 https://www.youtube.com/user/CS188Spring2013 (Spring 2013)  
-This is a fantastic introduction to *AI in general*, not specifically *ML* and introduces many different fundamental areas of AI and ML. The first half is more agent-based AI starting with CSPs, decision trees, MDPs etc, and in that respect it is a bit unique compared to the other courses on this list. Then goes into various different classic ML topics. It is an introduction, so requires no prior knowledge of AI or ML, but it does go into maths, so requires decent understanding of the usual probability, linear algebra, calculus etc. Doesn't cover DL but a great foundation for a lot of AI and ML, especially if you want to get more into agent-based AI such as RL and Monte Carlo Tree Search (MCTS).
+This is a fantastic introduction to *AI in general*, not specifically *ML* and introduces many different fundamental areas of AI and ML. Spreads the net very wide, so if all you're interested in is playing convolutional neural networks to make things like Deepdream, then 90% of this course won't be relevant. The first half is more agent-based AI starting with CSPs, decision trees, MDPs etc, and in that respect it is a bit unique compared to the other courses on this list. Then goes into various different classic ML topics. It is an introduction, so requires no prior knowledge of AI or ML, but it does go into maths, so requires decent understanding of the usual probability, linear algebra, calculus etc. Doesn't cover DL but a great foundation for a lot of AI and ML, especially if you want to get more into agent-based AI such as RL and Monte Carlo Tree Search (MCTS).
 
 **CS540 Machine Learning by Nando de Freitas @ UBC 2013**  
 https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6    
-This covers many classic ML and SI etc from start all the way to neural networks. Doesn't require prior knowledge of ML, so can be considered comprehensive introduction. It's way more thorough and detailed than Andrew Ng's Coursera and goes heavy into maths. Bear in mind it's a post-graduate CS course so it's quite advanced. Only brief intro to DL but comprehensive foundation in ML and SI. Nando is ace. Also prof at Oxford and works for Deepmind. 
+This covers many classic ML and SI etc from start all the way to neural networks. Doesn't require prior knowledge of ML, so can be considered comprehensive introduction. It's way more thorough and detailed than Andrew Ng's Coursera and goes heavy into maths. Bear in mind it's a post-graduate CS course so it's quite advanced. Again spreads the net quite wide, but not as wide as CS188, instead goes deeper into some areas. Only brief intro to DL but comprehensive foundation in ML and SI. Nando is ace. Also prof at Oxford and works for Deepmind. 
 
 **CS340 Machine Learning by Nando de Freitas @ UBC 2012**  
 https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf  
@@ -142,7 +143,7 @@ Similar to CS540 but more about DL. Definitely requires more understanding of st
 
 **CS229 Machine Learning by Andrew Ng @ Stanford 2008**  
 https://www.youtube.com/view_play_list?p=A89DCFA6ADACE599  
-Another very comprehensive introduction to ML/SI. Nothing like his Coursera, way more mathy and covers lots more topics, much more thorough. Kind of like a mashup of Pieter Abbeel's CS188 AI Course and Nando de Freitas's CS540 ML Course. This course is more detailed in some areas, and less detailed in others (e.g. AFAIR goes deeper into MDPs and RL than Abbeel's CS188, but doesn't cover bayes nets). They all provide slightly different perspectives and insights. Also doesn't cover DL, just a really solid comprehensive foundation for ML and SI. 
+Another very comprehensive introduction to ML/SI. Nothing like his Coursera, way more theoretical and covers lots more topics, and much more thorough. Kind of like a mashup of Pieter Abbeel's CS188 AI Course and Nando de Freitas's CS540 ML Course. This course is more detailed in some areas, and less detailed in others (e.g. AFAIR goes deeper into MDPs and RL than Abbeel's CS188, but doesn't cover bayes nets). They all provide slightly different perspectives and insights. Also doesn't cover DL, just a really solid comprehensive foundation for ML and SI. 
 
 **Neural Networks for Machine Learning by Geoffrey Hinton @ Coursera**  
 https://www.coursera.org/course/neuralnets  
