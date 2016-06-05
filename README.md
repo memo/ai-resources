@@ -1,5 +1,5 @@
 # Introduction
-This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). Mainly MOOCs & video lectures for now, books / tutorials / articles etc might come later. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
+This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL) - starting for beginners. Mainly MOOCs & video lectures for now, books / tutorials / articles etc might come later. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
 
 A lot of the resources below are actually not for DL but more comprehensive ML/SI. DL is mostly just tweaks on top of older techniques, so once you have a solid foundation in ML/SI it makes a lot more sense. If you go through the video lectures below (including advanced ones), you'll be able to pick up current DL developments directly from the published papers.
 
@@ -17,7 +17,7 @@ If there are sections which you are 100% comfortable with, then you could watch 
 # Video Lectures & Workshops
 These are one off video lectures (~1 hour) or workshops (~2-3 hours) that give overviews, intuition or advanced crash courses. You won't learn much about the depths of how things work, but will at least probably understand what things are, what they mean and what you can do with them. These are usually a good intro before you dive into the heavier MOOCs. 
 
-### Basic Summaries
+### Introductory Summaries
 
 **Deep Learning by Yann LeCun and Yohua Bengio @ NIPS 2015**  
 http://research.microsoft.com/apps/video/?id=259574  
@@ -31,16 +31,19 @@ Famous lecture by Yannn LeCun, godfather of deep convolutional neural networks (
 https://www.youtube.com/watch?v=6bOMf9zr7N8  
 An alternate history of DL from Jurgen Scmidhuber, another grandmaster of DL. He goes into more detailed history of the algorithms and where they come from, and then focuses on Recurrent Neural Networks (RNN), which his lab made many innovations on (including LSTM). Bit of an ad for his own research lab(s). This video is a bit more advanced than the above ones. Arguably more interesting too. 
 
-
-### Advanced Crash Courses
-
 **Basics of Computational Reinforcement Learning by Michael Littman @ RLDM 2015**  
 http://videolectures.net/rldm2015_littman_computational_reinforcement/  
 Kind of an overview intro to RL. Some experience with MDPs etc would be useful but not essential. Michael Littman is one of the old school stars of RL and a lot of fun.
 
+### Advanced Crash Courses
+
+**Deep Learning by Ruslan Salakhutdinov @ KDD 2014**
+http://videolectures.net/kdd2014_salakhutdinov_deep_learning/
+Overview of DL including DBN, RBM, PGM etc which are not as popular these days. Very theoretical, dense and mathematical. Maybe not that useful for beginners. Salakhutdinov is another major player in DL.
+
 **Introduction to Reinforcement Learning with Function Approximation by Rich Sutton @ NIPS 2015**  
 http://research.microsoft.com/apps/video/?id=259577  
-Similar to above but more technical and theoretical. Rich Sutton is old school king of RL. 
+Another intro to RL but more technical and theoretical. Rich Sutton is old school king of RL. 
 
 **Deep Reinforcement Learning by David Silver @ RLDM 2015**    
 http://videolectures.net/rldm2015_silver_reinforcement_learning  
@@ -176,8 +179,56 @@ https://www.coursera.org/course/pgm
 Not actually directly related to DL but probabilistic methods, bayes networks etc. (i.e. related to Josh Tenenbaum's talks at the top). I started this but stopped after a while as I got busy with other things. Starts fun but gets quite heavy. Looks like it's very thorough, perhaps too thorough as it seems to be covering a whole range of topics past and present. I'd like to finish it but have other priorties right now. 
 
 ---
-# Tutorials / Articles
-Coming soon.
+# Tutorials / Articles / Blogs
+There are so many articles & tutorials now, especially tutorials on very specific subjects, that I can't list them all. So below a few main ones that cover broad topics and mainly foundational material. Many of these require some prior knowledge of ML/DL and linear algebra, calculus etc. 
+
+
+### Blogs & Unstructured Tutorials
+These are sites which have unstructured tutorials on various different topics. 
+
+http://colah.github.io  
+Chris Olah's blog. Lots of great insight on complex topics and concepts. 
+
+http://karpathy.github.io  
+Andrei Karpathy's blog. Similar to above.
+
+http://blog.otoro.net/  
+@hardmaru's blog. Great explanations of concepts and example code too. 
+
+http://fastml.com/  
+Lots of good examples. 
+
+http://blog.keras.io   
+Tutorials on DL as implemented in Keras, a python based DL framework that sits on top of Tensorflow and Theano. 
+
+### Linear Tutorials
+These are linear tutorials that start from beginning to end. 
+
+https://www.tensorflow.org/versions/master/tutorials/index.html  
+Tutorials on DL as implemented in Tensorflow, Google's python based DL framework. Requires understanding of ML fundamentals, linear algebra, calculus etc.
+
+http://deeplearning.net/tutorial/contents.html  
+Tutorials on DL as implemented in Theano, a python based DL framework. Requires understanding of ML fundamentals, linear algebra, calculus etc. 
+
+
+
+
+### Books
+**Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville**  
+http://www.deeplearningbook.org  
+Free online book. Very recent. Briefly covers required maths too.
+
+**Information Theory, Inference, and Learning Algorithms by David Mackay**  
+http://www.inference.phy.cam.ac.uk/itprnn/book.html  
+Free online book. Relatively old (1st 1997, current 2005) but classic textbook. Very statistical and theoretical. Heavy. Requires good understanding of multivariate calculus, linear algebra etc. 
+
+**Pattern Recognition and Machine Learning by Chris Bishop**  
+http://research.microsoft.com/en-us/um/people/cmbishop/prml  
+Similar to above (not online or free though). Classic text book. Very theoretical. 
+
+**Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto**
+Online book on RL.
+
 
 ---
 # Notes
@@ -185,6 +236,5 @@ Since this is a list of resources that I have personally watched or read, accomp
 
 This list can be found on github and medium:  
 https://github.com/memo/ai-resources  
-https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelligence-machine-learning-statistical-inference-23bc56ba655#.msof51zfl  
-
+https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelligence-machine-learning-statistical-inference-23bc56ba655
 
