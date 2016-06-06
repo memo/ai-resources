@@ -160,7 +160,7 @@ https://www.coursera.org/course/compneuro
 Not directly related to DL but fascinating nevertheless. Starts quite fun but gets rather heavy, especially Adrienne's sections. Rajesh takes things quite slow and re-iterates everything, but I think Adrienne is used to dealing with comp-neuroscience postgrad students and flies through the slides. Expect to pause the video on every slide while you try to digest what's on the screen. Requires decent understanding of the usual suspects, linear algebra, differential calculus, probability and statistical analysis, including things like PCA etc.
 
 ---
-## I haven't completed, but started or skimmed through and looks good:
+## I haven't completed, but started or skimmed through
 **Machine Learning for Musicians and Artists by Rebecca Fiebrink @ Kadenze**  
 https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/info  
 Aimed at artists and musicians. I haven't watched this but knowing Rebecca and her work this is bound to ace. 
@@ -216,10 +216,9 @@ Tutorials on DL as implemented in Tensorflow, Google's python based DL framework
 http://deeplearning.net/tutorial/contents.html  
 Tutorials on DL as implemented in Theano, a python based DL framework. Requires understanding of ML fundamentals, linear algebra, calculus etc. 
 
+---
 
-
-
-### Books
+# Books
 **Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville**  
 http://www.deeplearningbook.org  
 Free online book. Very recent. Briefly covers required maths too.
