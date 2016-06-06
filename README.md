@@ -254,5 +254,5 @@ https://www.cs.ubc.ca/~murphyk/MLbook
 
 ---
 # Notes
-Since this is a list of resources that I have personally watched or read, accompanied by my brief thoughts on them, ~~it doesn't make sense for me to accept pull requests (unless there are typos). But *please* do send me suggestions (probably via issues) for others~~ but I have added an 'Others Recommendations' section where I am including other resources which come highly recommended by others. 
+This is a list of resources that I have personally watched or read, accompanied by my brief thoughts on them, ~~it doesn't make sense for me to accept pull requests (unless there are typos). But~~. Please do send me suggestions (probably via issues) for others. I have added an 'Other Recommendations' section where I am including other resources which come highly recommended by others. 
 
