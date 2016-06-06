@@ -4,7 +4,7 @@ https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelli
 
 
 # Introduction
-This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). It is aimed at beginners (those without CS background and not knowing anything about these subjects) and hopes to take them to quite advanced levels (able to read and understand DL papers). It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
+This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). It is aimed at beginners (those without Computer Science background and not knowing anything about these subjects) and hopes to take them to quite advanced levels (able to read and understand DL papers). It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
 
 A lot of the resources below are actually not for DL but more comprehensive ML/SI. DL is mostly just tweaks on top of older techniques, so once you have a solid foundation in ML/SI it makes a lot more sense. If you go through the video lectures below (including advanced ones), you'll be able to pick up current DL developments directly from the published papers.
 
@@ -251,6 +251,17 @@ http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-le
 
 **Machine Learning: a Probabilistic Perspective (Book) by Kevin Patrick Murphy**  
 https://www.cs.ubc.ca/~murphyk/MLbook  
+
+**Most Cited Deep Learning Papers by Terry Taewoong Um**  
+https://github.com/terryum/awesome-deep-learning-papers  
+"A curated list of the most cited deep learning papers (since 2010). I believe that there exist classic deep learning papers which are worth reading regardless of their applications. Rather than providing overwhelming amount of papers, I would like to provide a curated list of the classic deep learning papers which can be considered as must-reads in some area."
+
+**Critical Algorithm Studies: a Reading List by Tarleton Gillespie and Nick Seaver**
+Bit of a tangent, but important nevertheless.
+"This list is an attempt to collect and categorize a growing critical literature on algorithms as social concerns. The work included spans sociology, anthropology, science and technology studies, geography, communication, media studies, and legal studies, among others."
+
+
+
 
 ---
 # Notes
