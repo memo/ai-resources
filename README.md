@@ -256,8 +256,9 @@ https://www.cs.ubc.ca/~murphyk/MLbook
 https://github.com/terryum/awesome-deep-learning-papers  
 "A curated list of the most cited deep learning papers (since 2010). I believe that there exist classic deep learning papers which are worth reading regardless of their applications. Rather than providing overwhelming amount of papers, I would like to provide a curated list of the classic deep learning papers which can be considered as must-reads in some area."
 
-**Critical Algorithm Studies: a Reading List by Tarleton Gillespie and Nick Seaver**
-Bit of a tangent, but important nevertheless.
+**Critical Algorithm Studies: a Reading List by Tarleton Gillespie and Nick Seaver**  
+https://socialmediacollective.org/reading-lists/critical-algorithm-studies  
+Not related to the maths/algorithms directly but important nevertheless.  
 "This list is an attempt to collect and categorize a growing critical literature on algorithms as social concerns. The work included spans sociology, anthropology, science and technology studies, geography, communication, media studies, and legal studies, among others."
 
 
