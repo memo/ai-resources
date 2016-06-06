@@ -4,7 +4,7 @@ https://medium.com/@memoakten/selection-of-resources-to-learn-artificial-intelli
 
 
 # Introduction
-This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL) - for beginners. It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
+This is a very incomplete and subjective selection of resources to learn about the algorithms and maths of Artificial Intelligence (AI) / Machine Learning (ML) / Statistical Inference (SI) / Deep Learning (DL) / Reinforcement Learning (RL). It is aimed at beginners (those without CS background and not knowing anything about these subjects) and hopes to take them to quite advanced levels (able to read and understand DL papers). It is not an exhaustive list and only contains some of the learning materials *that I have personally completed* so that I can include brief personal comments on them. It is also by no means the *best* path to follow (nowadays most MOOCs have full paths all the way from basic statistics and linear algebra to ML/DL). But this is the path I took and in a sense it's a partial documentation of my personal journey into DL (actually I bounced around all of these back and forth like crazy). As someone who has no formal background in Computer Science (but has been programming for many years), the language, notation and concepts of ML/SI/DL and even CS was completely alien to me, and the learning curve was not only steep, but vertical, treacherous and slippery like ice.
 
 A lot of the resources below are actually not for DL but more comprehensive ML/SI. DL is mostly just tweaks on top of older techniques, so once you have a solid foundation in ML/SI it makes a lot more sense. If you go through the video lectures below (including advanced ones), you'll be able to pick up current DL developments directly from the published papers.
 
@@ -236,8 +236,24 @@ Similar to above (not online or free though). Classic text book. Very theoretica
 https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html  
 Online book on RL.
 
+**The Mathematical Theory of Communication by Claude E. Shannon (1948/1949)**  
+http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6773024    
+http://www.amazon.com/Mathematical-Theory-Communication-Claude-Shannon/dp/0252725484   
+Classic article/book which gives birth to modern Information Theory. I realize I'm on a slippery slope by recommending this as it's originally a paper, and if I suggest this I'd have to suggest a dozen others. But I find this book so useful as a foundation and alternative (supplementary) angle to help understand ML/SI concepts that I couldn't resist it. I actually recommend the book version (as opposed to paper) because it has an additional article by Warren Weaver which explains the concepts in plain English, before Shannon explains them with maths. The maths isn't actually that hairy and mainly requires good understanding of basic probability and Bayes law. 
+
+---
+
+# Other Recommendations
+These are resources which I have not read or watched, but come highly recommended by others.
+
+**Linear Algebra (Video lectures) by Gilbert Strang & MIT**  
+http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/  
+
+
+**Machine Learning: a Probabilistic Perspective (Book) by Kevin Patrick Murphy**  
+https://www.cs.ubc.ca/~murphyk/MLbook  
 
 ---
 # Notes
-Since this is a list of resources that I have personally watched or read, accompanied by my brief thoughts on them, it doesn't make sense for me to accept pull requests (unless there are typos). But *please* do send me suggestions (probably via issues) for others. 
+Since this is a list of resources that I have personally watched or read, accompanied by my brief thoughts on them, ~~it doesn't make sense for me to accept pull requests (unless there are typos). But *please* do send me suggestions (probably via issues) for others~~ but I have added an 'Others Recommendations' section where I am including other resources which come highly recommended by others. 
 
