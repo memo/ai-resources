@@ -262,6 +262,10 @@ https://socialmediacollective.org/reading-lists/critical-algorithm-studies
 Not related to the maths/algorithms directly but important nevertheless.  
 "This list is an attempt to collect and categorize a growing critical literature on algorithms as social concerns. The work included spans sociology, anthropology, science and technology studies, geography, communication, media studies, and legal studies, among others."
 
+**Programming Community Curated Resources for Learning AI**
+https://hackr.io/tutorials/learn-artificial-intelligence-ai
+"Learn Artificial Intelligence (AI) from the best online Artificial Intelligence courses/tutorials submitted and voted by the programming community."
+
 
 
 
